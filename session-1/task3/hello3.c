@@ -6,9 +6,9 @@
 
 #include <stdio.h>
 
-int main( void ) 
+int main( void ) {
     
-    printf("Hello\n");
+    printf("Hello everyone!\n");
 
     return 0;    
 }	
