@@ -16,6 +16,13 @@ int main( void ) {
     float c = 6.0;
     float root1, root2;
 
+    float discrim = b*b - 4*a*c;
+
+    root1 = ((-b - sqrt(discrim)) / (2*a));
+    root2 = ((-b + sqrt(discrim)) / (2*a));
+
+    printf("Root 1 is %f\n", root1);
+    printf("Root 2 is %f\n", root2);
     /*
      * Implement the formula for the 2 roots of a quadratic.
      * You can define additional variable for intermediate results to make the code simpler.
